@@ -52,3 +52,16 @@ javascript
 
     }
     alert("Правильны ответ: " + answer);
+
+
+## Education
+- University: 
+  - Minsk State Linguistic University
+- Courses:
+  - Web-design and computer graphics 
+
+
+## Languages
+- English (B2)
+- German (B1)
+- Russian (native
