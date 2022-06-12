@@ -1,4 +1,53 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
+    min-height: 100vh;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
 
 }
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fdfefd;
+    font-size: 5px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #91a67d;   /*поменять */
+    font-size: 20px; /*поменять*/
+    transition: .3s;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
