@@ -23,13 +23,6 @@ header {
     font-size: 5px;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    min-height: 50px;
-}
-
-
 
 .nav-list {
     display: flex;
@@ -56,15 +49,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 .section {
     width: 50%;
-    background-color: #91a67d;
 }
 
 @media (max-width: 768px) {
@@ -85,6 +73,11 @@ html {
 img {
    width: 250px;
 }
+.center-img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .section-profile {
     display: flex;
@@ -93,4 +86,31 @@ img {
 
 footer {
     background-color: black;
+}
+
+.container {
+    white-space: nowrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+
+.container-main {
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+
+}
+
+.container .container-main:first-child {
+    margin-right: 1%;
+    background-color: #91a67d;
+    color: #fdfefd;
+}
+
+.container .container-main:last-child {
+    margin-right: 10%;
+    background-color: #fdfefd;
 }
