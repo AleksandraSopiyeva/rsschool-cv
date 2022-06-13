@@ -41,28 +41,80 @@
             
 
             <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Location: Minsk, Belrus</li>
+                    <li class="section-item contacts-item">Phone: +375297676603</li>
+                    <li class="section-item contacts-item">Email: sashasopiyeva@gmail.com</li>
+                    <li class="section-item contacts-item">GitHub: AleksandraSopiyeva</li>
+                </ul>
+            </section>
+           
+            <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
                 <p>I'm very interested in Web Development. I want to develop in this direction. I think that my ability to learn will help me in this. I have a lot experience communicating with people, which helped me became more stress-resistant and also taught me how to work in a team.</p>
             </section>
 
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
+                <ul class="section list">
+                    <li class="section-item">HTML5,CSS3</li>
+                    <li class="section-item">JavaScript Basics</li>
+                    <li class="section-item">Git</li>
+                    <li  class="section-item">VS Code</li>
+                    <li class="section-item">Adobe Photoshop, Illustrator</li>
+                </ul>
             </section>
 
             <section class="section" id="code">
                 <h2 class="section-title">Code Example</h2>
+                <pre class="pre">
+                    <code>
+                "var answer = parseInt(Math.random() * 100);
+                    var playerNumber = 1;
+                        while(true) {
+                        var userAnswer = prompt("Угадайте число от 1 до 100. \nХодит игрок" + playerNumber + "\nДля выхода нажмите q " );
+                        if(userAnswer == "q")
+                        break;
+                    
+                userAnswer = parseInt(userAnswer);
+                    if(userAnswer == answer){
+                    alert("Поздравляю, победил игрок" + playerNumber);
+                        break;
+                        } else if(userAnswer > answer){
+                            alert("Вы ввели слишком большое число");
+                        } else if(userAnswer < answer){
+                            alert("Вы ввели слишком маленькое число");
+                        }
+                    if(playerNumber == 1)
+                     playerNumber = 2;
+                        else
+                            playerNumber = 1
+                        }
+                    alert("Правильны ответ: " + answer);"
+                    </code>
+                </pre>
             </section>
 
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
+                <p>Minsk State Linguistic University</p>
             </section>
 
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
+                <ul class="section list">
+                    <li class="section-item">Web-design and computer graphics</li>
+                    <li class="section-item">JS/FE Pre-Schol 2022Q2</li>
+                </ul>    
             </section>
 
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
+                <ul class="section list">
+                    <li class="section-item">English (B2)</li>
+                    <li class="section-item">German (B1)</li>
+                </ul>
             </section>
 
 

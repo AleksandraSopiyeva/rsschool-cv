@@ -66,4 +66,4 @@ javascript
 ## Languages
 - English (B2)
 - German (B1)
-- Russian (native
+- Russian (native)
