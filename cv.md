@@ -23,35 +23,21 @@ I don't have big programming expirience yet, but I'm very interested in Web Deve
 ## Code Example
 Guessing game
 javascript
-    var answer = parseInt(Math.random() * 100);
+    var eur = prompt("Enter the current EUR exchange rata");
+    var usd = prompt("Enter the current USD exchange rate");
 
-    var playerNumber = 1;
 
-    while(true) {
+    eur = parseInt(eur);
+    usd = parseInt(usd);
+    a = parseInt(a);
+    c = parseInt(c);
 
-    var userAnswer = prompt("Угадайте число от 1 до 100. \nХодит игрок" + playerNumber + "\nДля выхода нажмите q " );
+    var a = prompt("Enter the amount in RUBLEs to convert");
+    var c = a / eur;
+    alert("EUR: "  + c);
 
-    if(userAnswer == "q")
-    break;
-
-    userAnswer = parseInt(userAnswer);
-
-        if(userAnswer == answer){
-            alert("Поздравляю, победил игрок" + playerNumber);
-            break;
-        } else if(userAnswer > answer){
-            alert("Вы ввели слишком большое число");
-        } else if(userAnswer < answer){
-            alert("Вы ввели слишком маленькое число");
-        }
-       
-        if(playerNumber == 1)
-            playerNumber = 2;
-        else
-            playerNumber = 1
-
-    }
-    alert("Правильны ответ: " + answer);
+    var c = a / usd;
+    alert("USD: " + c);
 
 
 ## Education

@@ -24,7 +24,6 @@
                   <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
-                </section>
             </nav>
         </div>
     </header>
@@ -70,29 +69,23 @@
                 <h2 class="section-title">Code Example</h2>
                 <pre class="pre">
                     <code>
-       "var answer = parseInt(Math.random() * 100);
-          var playerNumber = 1;
-             while(true) {
-            var userAnswer = prompt("Угадайте число от 1 до 100. 
-            \nХодит игрок" + playerNumber + "\nДля выхода нажмите q " );
-                        if(userAnswer == "q")
-                        break;
+                        var eur = prompt("Enter the current EUR exchange rata");
+                        var usd = prompt("Enter the current USD exchange rate");
                     
-                userAnswer = parseInt(userAnswer);
-                    if(userAnswer == answer){
-                    alert("Поздравляю, победил игрок" + playerNumber);
-                        break;
-                        } else if(userAnswer > answer){
-                            alert("Вы ввели слишком большое число");
-                        } else if(userAnswer < answer){
-                            alert("Вы ввели слишком маленькое число");
-                        }
-                    if(playerNumber == 1)
-                     playerNumber = 2;
-                        else
-                            playerNumber = 1
-                        }
-                    alert("Правильны ответ: " + answer);"
+                    
+                        eur = parseInt(eur);
+                        usd = parseInt(usd);
+                        a = parseInt(a);
+                        c = parseInt(c);
+                    
+                        var a = prompt("Enter the amount in RUBLEs to convert");
+                        var c = a / eur;
+                        alert("EUR: "  + c);
+                    
+                        var c = a / usd;
+                        alert("USD: " + c);
+                    
+       
                     </code>
                 </pre>
             </section>
