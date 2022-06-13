@@ -76,6 +76,11 @@ html {
         width: 100%;
     }
 }
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
 
 .section-profile {
     display: flex;
@@ -198,7 +203,33 @@ code {
 
 
 
+.footer {
+    background-color: #91a67d;
+    padding: 20px;
+}
 
 footer {
-    background-color: #91a67d;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    color: #ffffff;
+}
+
+.github {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
